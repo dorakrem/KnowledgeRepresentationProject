@@ -1,5 +1,5 @@
 # Knowledge Representation in the Semantic Web
-
+The course comprised 2 assignments and a 2 member-team project.
 # Assignment 1
 
 The first assignment focused on: 
