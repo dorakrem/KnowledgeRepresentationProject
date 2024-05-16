@@ -1,15 +1,23 @@
 # Knowledge Representation in the Semantic Web
 
-* Assignment 1
+# Assignment 1
 
-  The 1st Assigment of this course was about XML, xsd, XPath and XSLT.
+The first assignment focused on: 
+* XML (eXtensible Markup Language): Encoding documents in a human-readable and machine-readable format.
+* XSD (XML Schema Definition): Defining the structure and data types for XML documents.
+* XPath (XML Path Language): Navigating through elements and attributes in an XML document.
+* XSLT (eXtensible Stylesheet Language Transformations): Transforming XML documents into other formats, such as HTML.
 
-* Assignment 2
-  
-  The 2nd Assigment of this course was about creating an RDFS university ontology. This ontology consisted of 6 univeristy departments, 10 professors, 20 students, 15 courses, 18 classrooms.
+# Assignment 2
 
-  SPARQL queries were executed using this ontology.
+The second assignment involved creating an RDFS university ontology. This ontology included:
+* Classes: University departments, professors, students, courses, and classrooms.
+* Properties: Relationships such as which professors teach which courses, which students are enrolled in which courses, and which departments offer which courses.
 
-* Project
+SPARQL queries were executed using the university ontology to retrieve and manipulate data.
 
-  A zoo OWL ontology was created using the tool Protégé.
+# Project
+
+The project entailed creating a zoo ontology using the Web Ontology Language (OWL) and the tool Protégé. Protégé was used to model the ontology, define classes and properties, set up relationships and constraints, and visualize and test the ontology.
+
+
