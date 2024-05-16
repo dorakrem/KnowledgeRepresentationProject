@@ -1,0 +1,2394 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dorak/ontologies/2022/11/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dorak/ontologies/2022/11/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/dorak/ontologies/2022/11/untitled-ontology-8"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A zoo ontology that describes the organization and functionality of a zoo.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Crocodile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CageCleanedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kiwi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martin_Iglesias_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiger3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alexandra_Zwidou"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasBaby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crocodile1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ticket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elephant1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CageHosts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Salary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tortoise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasIdCard"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chicken1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IsHiredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Cleans"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiger2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chameleon1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cafeteria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsCleanedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crocodile_Cage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giwrgos_Giannakopoulos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AdultTicket_001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Administrator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Smith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Children_Ticket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal_Caretaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiwi1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elephant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Cares"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vaggelis_Dimitriou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michael_Scott"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PersonAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worker_ID_Card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal_Feeder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Eats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toilet1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Richardo_Pablo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whale_Shark1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Macaw1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiwi2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maria_Papadatou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maria_Ioannou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EatsPlants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal_Cleaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reptile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiger4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mammal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasDegreeIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tortoise1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giwrgos_Giannikopoulos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honorary_Mammal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shark3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Macaw2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discount_Ticket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elephant_Cage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eagle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Animal_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shark"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CageNum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swtiris_papadopoulos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasBroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chameleon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seahorse1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal_Trainer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Macaw_Cage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsCaredBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George_Cutty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiscountTicket_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vaggelis_Gewrgiou_ID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shark_Tank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rita_Papa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChildrenTicket_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Area"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rita_Papa_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whale_shark"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CleansCage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martín_Iglesias_ID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shark1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo_Keeper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ilias_González"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Feeds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LivesInCage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adult_Ticket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seahorse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vaggelis_Gewrgiou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visitor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eagle_Cage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiger1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macaw"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ilias_Tsopenoglou"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EatsMeat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChildrenTicket_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bear1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shark2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo_Cleaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Veterinarian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worker_Visitor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gift_Shop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsFedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasFeathers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSameSalary"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bear_Cage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eagle1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal_Cage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Trains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSameHeight"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Animal"/>
+        <ObjectUnionOf>
+            <Class IRI="#Bird"/>
+            <Class IRI="#Fish"/>
+            <Class IRI="#Mammal"/>
+            <Class IRI="#Reptile"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cleaner"/>
+        <ObjectUnionOf>
+            <Class IRI="#Animal_Cleaner"/>
+            <Class IRI="#Zoo_Cleaner"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Honorary_Mammal"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Bird"/>
+            <Class IRI="#Mammal"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Veterinarian"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Worker"/>
+            <DataHasValue>
+                <DataProperty IRI="#HasDegreeIn"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Veterinary Medicine</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Worker_Visitor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Visitor"/>
+            <Class IRI="#Worker"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Zoo_Cleaner"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Worker"/>
+            <DataHasValue>
+                <DataProperty IRI="#HasBroom"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Zoo_Keeper"/>
+        <ObjectUnionOf>
+            <Class IRI="#Animal_Caretaker"/>
+            <Class IRI="#Animal_Trainer"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Administrator"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult"/>
+        <Class IRI="#Visitor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Pays"/>
+            <Class IRI="#Adult_Ticket"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Pays"/>
+            <Class IRI="#Children_Ticket"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult_Ticket"/>
+        <Class IRI="#Ticket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult_Ticket"/>
+        <ObjectComplementOf>
+            <Class IRI="#Discount_Ticket"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <Class IRI="#Zoo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#IsFedBy"/>
+            <Class IRI="#Animal_Feeder"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Cage"/>
+        <Class IRI="#Zoo_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Cage"/>
+        <ObjectComplementOf>
+            <Class IRI="#Public_Area"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Cage"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#CageHosts"/>
+            <Class IRI="#Animal"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Cage"/>
+        <ObjectMaxCardinality cardinality="3">
+            <ObjectProperty IRI="#CageHosts"/>
+            <Class IRI="#Animal"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Caretaker"/>
+        <Class IRI="#Zoo_Keeper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Caretaker"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#Cares"/>
+            <Class IRI="#Animal"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Caretaker"/>
+        <ObjectMaxCardinality cardinality="6">
+            <ObjectProperty IRI="#Cares"/>
+            <Class IRI="#Animal"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Cleaner"/>
+        <Class IRI="#Animal_Caretaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Cleaner"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#CleansCage"/>
+            <Class IRI="#Animal_Cage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Feeder"/>
+        <Class IRI="#Animal_Caretaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Feeder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Feeds"/>
+            <Class IRI="#Bird"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Feeder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Feeds"/>
+            <Class IRI="#Fish"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Feeder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Feeds"/>
+            <Class IRI="#Mammal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Feeder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Feeds"/>
+            <Class IRI="#Reptile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Trainer"/>
+        <Class IRI="#Zoo_Keeper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bear"/>
+        <Class IRI="#Mammal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bird"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chameleon"/>
+        <Class IRI="#Reptile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken"/>
+        <Class IRI="#Bird"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Children_Ticket"/>
+        <Class IRI="#Ticket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Children_Ticket"/>
+        <ObjectComplementOf>
+            <Class IRI="#Discount_Ticket"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaner"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crocodile"/>
+        <Class IRI="#Reptile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discount_Ticket"/>
+        <Class IRI="#Ticket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eagle"/>
+        <Class IRI="#Bird"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elephant"/>
+        <Class IRI="#Mammal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honorary_Mammal"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kiwi"/>
+        <Class IRI="#Honorary_Mammal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macaw"/>
+        <Class IRI="#Bird"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammal"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Area"/>
+        <Class IRI="#Zoo_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Area"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#IsCleanedBy"/>
+            <Class IRI="#Zoo_Cleaner"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reptile"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seahorse"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seahorse"/>
+        <DataHasValue>
+            <DataProperty IRI="#EatsPlants"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shark"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shark"/>
+        <DataHasValue>
+            <DataProperty IRI="#EatsMeat"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ticket"/>
+        <Class IRI="#Visit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiger"/>
+        <Class IRI="#Mammal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiger"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#IsFedBy"/>
+            <NamedIndividual IRI="#John_Smith"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiger"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#IsFedBy"/>
+            <NamedIndividual IRI="#Maria_Ioannou"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiger"/>
+        <DataHasValue>
+            <DataProperty IRI="#EatsMeat"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tortoise"/>
+        <Class IRI="#Reptile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Veterinarian"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visit"/>
+        <Class IRI="#Zoo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visitor"/>
+        <Class IRI="#Visit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visitor"/>
+        <ObjectUnionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#Pays"/>
+                <Class IRI="#Adult_Ticket"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#Pays"/>
+                <Class IRI="#Children_Ticket"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#Pays"/>
+                <Class IRI="#Discount_Ticket"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visitor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Pays"/>
+            <Class IRI="#Ticket"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whale_shark"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whale_shark"/>
+        <DataHasValue>
+            <DataProperty IRI="#EatsMeat"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whale_shark"/>
+        <DataHasValue>
+            <DataProperty IRI="#EatsPlants"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker"/>
+        <Class IRI="#Zoo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#HasIdCard"/>
+            <Class IRI="#Worker_ID_Card"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker"/>
+        <DataHasValue>
+            <DataProperty IRI="#IsHiredBy"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Michael Scott</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker_ID_Card"/>
+        <Class IRI="#Zoo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker_ID_Card"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#BelongsTo"/>
+            <Class IRI="#Worker"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker_Visitor"/>
+        <Class IRI="#Visitor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worker_Visitor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Pays"/>
+            <Class IRI="#Discount_Ticket"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo_Cleaner"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo_Cleaner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Cleans"/>
+            <ObjectComplementOf>
+                <Class IRI="#Animal_Cage"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo_Keeper"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo_Structure"/>
+        <Class IRI="#Zoo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo_Structure"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#CageCleanedBy"/>
+            <Class IRI="#Animal_Cleaner"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Bear"/>
+        <Class IRI="#Chameleon"/>
+        <Class IRI="#Chicken"/>
+        <Class IRI="#Crocodile"/>
+        <Class IRI="#Eagle"/>
+        <Class IRI="#Elephant"/>
+        <Class IRI="#Macaw"/>
+        <Class IRI="#Seahorse"/>
+        <Class IRI="#Shark"/>
+        <Class IRI="#Tiger"/>
+        <Class IRI="#Tortoise"/>
+        <Class IRI="#Whale_shark"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Visit"/>
+        <Class IRI="#Worker_ID_Card"/>
+        <Class IRI="#Zoo_Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Worker"/>
+        <Class IRI="#Worker_ID_Card"/>
+        <Class IRI="#Zoo_Structure"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Adult_Ticket"/>
+        <NamedIndividual IRI="#AdultTicket_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cleaner"/>
+        <NamedIndividual IRI="#Alexandra_Zwidou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bear"/>
+        <NamedIndividual IRI="#Bear1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cage"/>
+        <NamedIndividual IRI="#Bear_Cage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Area"/>
+        <NamedIndividual IRI="#Cafeteria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chameleon"/>
+        <NamedIndividual IRI="#Chameleon1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chicken"/>
+        <NamedIndividual IRI="#Chicken1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Children_Ticket"/>
+        <NamedIndividual IRI="#ChildrenTicket_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Children_Ticket"/>
+        <NamedIndividual IRI="#ChildrenTicket_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crocodile"/>
+        <NamedIndividual IRI="#Crocodile1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cage"/>
+        <NamedIndividual IRI="#Crocodile_Cage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Discount_Ticket"/>
+        <NamedIndividual IRI="#DiscountTicket_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eagle"/>
+        <NamedIndividual IRI="#Eagle1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cage"/>
+        <NamedIndividual IRI="#Eagle_Cage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Elephant"/>
+        <NamedIndividual IRI="#Elephant1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cage"/>
+        <NamedIndividual IRI="#Elephant_Cage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adult"/>
+        <NamedIndividual IRI="#George_Cutty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#George_Cutty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Area"/>
+        <NamedIndividual IRI="#Gift_Shop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Trainer"/>
+        <NamedIndividual IRI="#Giwrgos_Giannakopoulos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Trainer"/>
+        <NamedIndividual IRI="#Giwrgos_Giannikopoulos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zoo_Cleaner"/>
+        <NamedIndividual IRI="#Ilias_González"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worker"/>
+        <NamedIndividual IRI="#Ilias_Tsopenoglou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Feeder"/>
+        <NamedIndividual IRI="#John_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kiwi"/>
+        <NamedIndividual IRI="#Kiwi1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mammal"/>
+        <NamedIndividual IRI="#Kiwi2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Macaw"/>
+        <NamedIndividual IRI="#Macaw1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Macaw"/>
+        <NamedIndividual IRI="#Macaw2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cage"/>
+        <NamedIndividual IRI="#Macaw_Cage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cleaner"/>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worker_Visitor"/>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Feeder"/>
+        <NamedIndividual IRI="#Maria_Ioannou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cleaner"/>
+        <NamedIndividual IRI="#Maria_Papadatou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zoo_Cleaner"/>
+        <NamedIndividual IRI="#Martin_Iglesias_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zoo_Cleaner"/>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worker_ID_Card"/>
+        <NamedIndividual IRI="#Martín_Iglesias_ID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Administrator"/>
+        <NamedIndividual IRI="#Michael_Scott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Trainer"/>
+        <NamedIndividual IRI="#Richardo_Pablo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Veterinarian"/>
+        <NamedIndividual IRI="#Rita_Papa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worker_ID_Card"/>
+        <NamedIndividual IRI="#Rita_Papa_ID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seahorse"/>
+        <NamedIndividual IRI="#Seahorse1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shark"/>
+        <NamedIndividual IRI="#Shark1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shark"/>
+        <NamedIndividual IRI="#Shark2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shark"/>
+        <NamedIndividual IRI="#Shark3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cage"/>
+        <NamedIndividual IRI="#Shark_Tank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worker"/>
+        <NamedIndividual IRI="#Swtiris_papadopoulos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tiger"/>
+        <NamedIndividual IRI="#Tiger1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tiger"/>
+        <NamedIndividual IRI="#Tiger2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tiger"/>
+        <NamedIndividual IRI="#Tiger3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tiger"/>
+        <NamedIndividual IRI="#Tiger4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal_Cage"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Area"/>
+        <NamedIndividual IRI="#Toilet1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tortoise"/>
+        <NamedIndividual IRI="#Tortoise1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Vaggelis_Dimitriou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Vaggelis_Gewrgiou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worker_ID_Card"/>
+        <NamedIndividual IRI="#Vaggelis_Gewrgiou_ID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale_shark"/>
+        <NamedIndividual IRI="#Whale_Shark1"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Giwrgos_Giannakopoulos"/>
+        <NamedIndividual IRI="#Giwrgos_Giannikopoulos"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Shark1"/>
+        <NamedIndividual IRI="#Shark2"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Shark2"/>
+        <NamedIndividual IRI="#Shark3"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Tiger2"/>
+        <NamedIndividual IRI="#Tiger3"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Tiger2"/>
+        <NamedIndividual IRI="#Tiger4"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CleansCage"/>
+        <NamedIndividual IRI="#Alexandra_Zwidou"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Bear1"/>
+        <NamedIndividual IRI="#Crocodile1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Bear_Cage"/>
+        <NamedIndividual IRI="#Bear1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Chameleon1"/>
+        <NamedIndividual IRI="#Chicken1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Chicken1"/>
+        <NamedIndividual IRI="#Macaw1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Crocodile1"/>
+        <NamedIndividual IRI="#Elephant1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <NamedIndividual IRI="#Eagle1"/>
+        <NamedIndividual IRI="#Chicken1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <NamedIndividual IRI="#Eagle1"/>
+        <NamedIndividual IRI="#Macaw1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Eagle1"/>
+        <NamedIndividual IRI="#Tiger1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Elephant1"/>
+        <NamedIndividual IRI="#Whale_Shark1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Elephant_Cage"/>
+        <NamedIndividual IRI="#Elephant1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Pays"/>
+        <NamedIndividual IRI="#George_Cutty"/>
+        <NamedIndividual IRI="#AdultTicket_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Pays"/>
+        <NamedIndividual IRI="#George_Cutty"/>
+        <NamedIndividual IRI="#ChildrenTicket_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cleans"/>
+        <NamedIndividual IRI="#Ilias_González"/>
+        <NamedIndividual IRI="#Toilet1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSameSalary"/>
+        <NamedIndividual IRI="#Ilias_González"/>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cleans"/>
+        <NamedIndividual IRI="#Ilias_Tsopenoglou"/>
+        <NamedIndividual IRI="#Toilet1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Kiwi1"/>
+        <NamedIndividual IRI="#Chameleon1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <NamedIndividual IRI="#Macaw1"/>
+        <NamedIndividual IRI="#Chicken1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Macaw1"/>
+        <NamedIndividual IRI="#Tortoise1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Macaw_Cage"/>
+        <NamedIndividual IRI="#Macaw1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Macaw_Cage"/>
+        <NamedIndividual IRI="#Macaw2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Pays"/>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+        <NamedIndividual IRI="#DiscountTicket_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasIdCard"/>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+        <NamedIndividual IRI="#Martín_Iglesias_ID"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <NamedIndividual IRI="#Martín_Iglesias_ID"/>
+        <NamedIndividual IRI="#Martin_Iglesias_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <NamedIndividual IRI="#Martín_Iglesias_ID"/>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasIdCard"/>
+        <NamedIndividual IRI="#Rita_Papa"/>
+        <NamedIndividual IRI="#Rita_Papa_ID"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <NamedIndividual IRI="#Rita_Papa_ID"/>
+        <NamedIndividual IRI="#Rita_Papa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Seahorse1"/>
+        <NamedIndividual IRI="#Kiwi1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <NamedIndividual IRI="#Shark1"/>
+        <NamedIndividual IRI="#Eagle1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <NamedIndividual IRI="#Shark3"/>
+        <NamedIndividual IRI="#Eagle1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Shark_Tank"/>
+        <NamedIndividual IRI="#Shark1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Shark_Tank"/>
+        <NamedIndividual IRI="#Shark2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Shark_Tank"/>
+        <NamedIndividual IRI="#Shark3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Tiger1"/>
+        <NamedIndividual IRI="#Bear1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LivesInCage"/>
+        <NamedIndividual IRI="#Tiger1"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LivesInCage"/>
+        <NamedIndividual IRI="#Tiger2"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LivesInCage"/>
+        <NamedIndividual IRI="#Tiger3"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LivesInCage"/>
+        <NamedIndividual IRI="#Tiger4"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageCleanedBy"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+        <NamedIndividual IRI="#Alexandra_Zwidou"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+        <NamedIndividual IRI="#Tiger1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+        <NamedIndividual IRI="#Tiger2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+        <NamedIndividual IRI="#Tiger3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CageHosts"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+        <NamedIndividual IRI="#Tiger4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSameHeight"/>
+        <NamedIndividual IRI="#Tortoise1"/>
+        <NamedIndividual IRI="#Crocodile1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <NamedIndividual IRI="#Tortoise1"/>
+        <NamedIndividual IRI="#Eagle1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <NamedIndividual IRI="#Vaggelis_Gewrgiou_ID"/>
+        <NamedIndividual IRI="#Vaggelis_Gewrgiou"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <NamedIndividual IRI="#Whale_Shark1"/>
+        <NamedIndividual IRI="#Shark1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasPrice"/>
+        <NamedIndividual IRI="#AdultTicket_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Alexandra_Zwidou"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alexandra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Alexandra_Zwidou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Alexandra_Zwidou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Bear1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Bear1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">201</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasBaby"/>
+        <NamedIndividual IRI="#Bear1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CageNum"/>
+        <NamedIndividual IRI="#Bear_Cage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Chameleon1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Chameleon1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">301</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Chicken1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Chicken1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasBaby"/>
+        <NamedIndividual IRI="#Chicken1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Weight"/>
+        <NamedIndividual IRI="#Chicken1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasPrice"/>
+        <NamedIndividual IRI="#ChildrenTicket_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasPrice"/>
+        <NamedIndividual IRI="#ChildrenTicket_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Crocodile1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Crocodile1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">302</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasPrice"/>
+        <NamedIndividual IRI="#DiscountTicket_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Eagle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Eagle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Elephant1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">76</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Elephant1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">202</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Weight"/>
+        <NamedIndividual IRI="#Elephant1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CageNum"/>
+        <NamedIndividual IRI="#Elephant_Cage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Giwrgos_Giannakopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Giwrgos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Giwrgos_Giannakopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Giwrgos_Giannakopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Giwrgos_Giannikopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Giwrgos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Giwrgos_Giannikopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Giwrgos_Giannikopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Ilias_González"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ilias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Ilias_González"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Ilias_González"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">640</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#John_Smith"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">John</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#John_Smith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#John_Smith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Kiwi1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Kiwi1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasBaby"/>
+        <NamedIndividual IRI="#Kiwi1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasFeathers"/>
+        <NamedIndividual IRI="#Kiwi2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Macaw1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Macaw1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CageNum"/>
+        <NamedIndividual IRI="#Macaw_Cage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Makis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Makis_Dimakis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Maria_Ioannou"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Maria_Ioannou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Maria_Ioannou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Maria_Papadatou"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Maria_Papadatou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Maria_Papadatou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Martin_Iglesias_2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Martin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Martin_Iglesias_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Martin_Iglesias_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">640</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Martin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Martín_Iglesias"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">640</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Michael_Scott"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Michael</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Michael_Scott"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Michael_Scott"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">69000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Richardo_Pablo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Richardo_Pablo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Rita_Papa"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rita</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Rita_Papa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">58</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Rita_Papa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Seahorse1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Seahorse1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Shark1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Shark1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">112</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Weight"/>
+        <NamedIndividual IRI="#Shark1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Shark2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Shark2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">122</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Shark3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Shark3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">112</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Weight"/>
+        <NamedIndividual IRI="#Shark3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CageNum"/>
+        <NamedIndividual IRI="#Shark_Tank"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasBroom"/>
+        <NamedIndividual IRI="#Swtiris_papadopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Swtiris_papadopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Swtiris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonAge"/>
+        <NamedIndividual IRI="#Swtiris_papadopoulos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Tiger1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Tiger1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">213</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasBaby"/>
+        <NamedIndividual IRI="#Tiger1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Tiger2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Tiger2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">223</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Tiger3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Tiger3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">233</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Tiger4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Tiger4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">213</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasBaby"/>
+        <NamedIndividual IRI="#Tiger4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CageNum"/>
+        <NamedIndividual IRI="#Tiger_Cage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Tortoise1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Tortoise1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">303</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasBroom"/>
+        <NamedIndividual IRI="#Vaggelis_Dimitriou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Whale_Shark1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">964</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Animal_ID"/>
+        <NamedIndividual IRI="#Whale_Shark1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">103</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CageCleanedBy"/>
+        <ObjectProperty IRI="#IsCaredBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CleansCage"/>
+        <ObjectProperty IRI="#Cares"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Feeds"/>
+        <ObjectProperty IRI="#Cares"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsFedBy"/>
+        <ObjectProperty IRI="#IsCaredBy"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <ObjectProperty IRI="#HasIdCard"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CageCleanedBy"/>
+        <ObjectProperty IRI="#CleansCage"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CageHosts"/>
+        <ObjectProperty IRI="#LivesInCage"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Cares"/>
+        <ObjectProperty IRI="#IsCaredBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Cleans"/>
+        <ObjectProperty IRI="#IsCleanedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Feeds"/>
+        <ObjectProperty IRI="#IsFedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasSameHeight"/>
+        <ObjectProperty IRI="#HasSameHeight"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasSameSalary"/>
+        <ObjectProperty IRI="#HasSameSalary"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#BelongsTo"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#LivesInCage"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#CageHosts"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#HasIdCard"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#HasSameHeight"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#HasSameSalary"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <Class IRI="#Worker_ID_Card"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CageCleanedBy"/>
+        <Class IRI="#Animal_Cage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CageCleanedBy"/>
+        <ObjectComplementOf>
+            <Class IRI="#Public_Area"/>
+        </ObjectComplementOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CageHosts"/>
+        <Class IRI="#Animal_Cage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Cares"/>
+        <Class IRI="#Animal_Caretaker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Cleans"/>
+        <Class IRI="#Zoo_Cleaner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CleansCage"/>
+        <Class IRI="#Animal_Cleaner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Feeds"/>
+        <Class IRI="#Animal_Feeder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasIdCard"/>
+        <Class IRI="#Worker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasSameHeight"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasSameSalary"/>
+        <Class IRI="#Worker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsCaredBy"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsCleanedBy"/>
+        <Class IRI="#Public_Area"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsFedBy"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LivesInCage"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Pays"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Trains"/>
+        <Class IRI="#Animal_Trainer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <Class IRI="#Worker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CageCleanedBy"/>
+        <Class IRI="#Animal_Cleaner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CageHosts"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Cares"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Cleans"/>
+        <Class IRI="#Public_Area"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Cleans"/>
+        <ObjectComplementOf>
+            <Class IRI="#Animal_Cage"/>
+        </ObjectComplementOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CleansCage"/>
+        <Class IRI="#Animal_Cage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CleansCage"/>
+        <ObjectComplementOf>
+            <Class IRI="#Public_Area"/>
+        </ObjectComplementOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Feeds"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasIdCard"/>
+        <Class IRI="#Worker_ID_Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSameHeight"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSameSalary"/>
+        <Class IRI="#Worker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsBiggerThan"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsCaredBy"/>
+        <Class IRI="#Animal_Caretaker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsCleanedBy"/>
+        <Class IRI="#Zoo_Cleaner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsFedBy"/>
+        <Class IRI="#Animal_Feeder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsSmallerThan"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LivesInCage"/>
+        <Class IRI="#Animal_Cage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Pays"/>
+        <Class IRI="#Ticket"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Trains"/>
+        <Class IRI="#Bird"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EatsMeat"/>
+        <DataProperty IRI="#Eats"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EatsPlants"/>
+        <DataProperty IRI="#Eats"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#HasPrice"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Animal_ID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#HasPrice"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Animal_ID"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CageNum"/>
+        <Class IRI="#Animal_Cage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eats"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasBaby"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasBroom"/>
+        <Class IRI="#Zoo_Cleaner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasDegreeIn"/>
+        <Class IRI="#Veterinarian"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasFeathers"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasName"/>
+        <Class IRI="#Worker"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasPrice"/>
+        <Class IRI="#Ticket"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IsHiredBy"/>
+        <Class IRI="#Worker"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PersonAge"/>
+        <Class IRI="#Worker"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Salary"/>
+        <Class IRI="#Worker"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weight"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Animal_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CageNum"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Eats"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EatsMeat"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EatsPlants"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasBaby"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasBroom"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasDegreeIn"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasFeathers"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasPrice"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IsHiredBy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PersonAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Salary"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weight"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Children_Ticket"/>
+                <Variable IRI="x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#HasPrice"/>
+                <Variable IRI="x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Mammal"/>
+                <Variable IRI="untitled-ontology-8untitled-ontology-8x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#HasFeathers"/>
+                <Variable IRI="untitled-ontology-8untitled-ontology-8x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Kiwi"/>
+                <Variable IRI="untitled-ontology-8untitled-ontology-8x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Worker"/>
+                <Variable IRI="x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#Cleans"/>
+                <Variable IRI="x"/>
+                <Variable IRI="y"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Public_Area"/>
+                <Variable IRI="y"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Zoo_Cleaner"/>
+                <Variable IRI="x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Visitor"/>
+                <Variable IRI="untitled-ontology-8untitled-ontology-8x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#HasIdCard"/>
+                <Variable IRI="untitled-ontology-8untitled-ontology-8x"/>
+                <Variable IRI="untitled-ontology-8untitled-ontology-8y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Worker_Visitor"/>
+                <Variable IRI="untitled-ontology-8untitled-ontology-8x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Visitor"/>
+                <Variable IRI="untitled-ontology-8x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#HasBroom"/>
+                <Variable IRI="untitled-ontology-8x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Worker_Visitor"/>
+                <Variable IRI="untitled-ontology-8x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
